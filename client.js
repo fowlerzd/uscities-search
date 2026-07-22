@@ -58,3 +58,4 @@ function displaySearch(data) {
   // textContent for now
   responsesElm.textContent = data.length === 0 ? 'No cities found' : JSON.stringify(data, null, 2);
 }
+// test
